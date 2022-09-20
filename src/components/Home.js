@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import { Options } from "./Options";
+import { Header } from "./Header";
+import { Bubbles } from "./Bubbles";
 
 export class Home extends Component {
   render() {
     return (
       <div className="App">
-        <h3>Welcome to stream search</h3>
+        <Bubbles />
+        <Header />
         <Options />
       </div>
     );

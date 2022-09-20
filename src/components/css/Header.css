@@ -1,0 +1,43 @@
+.header {
+  height: 80px;
+  width: 100%;
+  opacity: 90%;
+  background-color: rgb(22, 20, 20);
+}
+
+.inner_header {
+  width: 500px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container h1 {
+  color: #c3bbf3;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.icon_container {
+  display: table;
+  float: right;
+  height: 100%;
+}
+
+.icon_container h1 {
+  color: #c3bcef;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 50px;
+}
