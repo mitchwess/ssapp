@@ -1,0 +1,11 @@
+.cards {
+  color: white;
+  padding: 10px 10px;
+  margin: 20px 10px;
+  cursor: pointer;
+  transition: transform 100ms ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0px 0px 8px 2px #051421;
+  height: 100px;
+  width: 100px;
+}

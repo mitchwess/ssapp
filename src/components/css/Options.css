@@ -56,6 +56,12 @@
 .option .optionitem .icon.prime {
   font-size: 75px;
 }
+.option .optionitem .icon.disney {
+  font-size: 50px;
+}
+.option .optionitem.disney {
+  padding: 40px;
+}
 .option .optionitem.netflix {
   padding: 45px;
 }
@@ -80,4 +86,9 @@
   opacity: 90%;
   color: #ff9900;
   border-color: #ff9900;
+}
+.option .checkbox:checked ~ .optionitem.disney {
+  opacity: 90%;
+  color: #006e99;
+  border-color: #006e99;
 }

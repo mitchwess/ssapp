@@ -1,0 +1,37 @@
+.genres {
+  display: flex;
+  color: white;
+  overflow-x: scroll;
+  padding: 10px 0px;
+}
+
+.genres::-webkit-scrollbar {
+  display: none;
+}
+
+.genres {
+  -ms-overflow-style: none;
+  scrollbar-width: 10px;
+}
+
+.genres > h3 {
+  cursor: pointer;
+  margin: 10px 70px;
+  font-weight: 300;
+  opacity: 70%;
+  color: white;
+  min-width: fit-content;
+  transition: transform 50ms ease-in-out;
+}
+
+.genres > h3:hover {
+  opacity: 1;
+  color: rgb(36, 36, 109);
+  transform: scale(1.2);
+}
+
+.active {
+  opacity: 1;
+  color: rgb(18, 27, 72) !important;
+  transform: scale(1.5);
+}
